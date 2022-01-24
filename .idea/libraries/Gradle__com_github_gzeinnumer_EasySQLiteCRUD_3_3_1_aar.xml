@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.gzeinnumer:EasySQLiteCRUD:3.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9344e02fa45d222567ec9775f55fd140/jetified-EasySQLiteCRUD-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9344e02fa45d222567ec9775f55fd140/jetified-EasySQLiteCRUD-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9344e02fa45d222567ec9775f55fd140/jetified-EasySQLiteCRUD-3.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gzeinnumer/EasySQLiteCRUD/3.3.1/169b1cbdbea8d9b39f3b6874ec510353d3bd53ba/EasySQLiteCRUD-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

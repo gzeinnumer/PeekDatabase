@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/def_margin_big"
+    android:layout_marginBottom="@dimen/def_margin_big"
+    android:background="@drawable/rounded_corner_dlm_top"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_half"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_string" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="@dimen/space_half"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btn_hide_detail"
+            style="@style/MyButtonOutlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/def_margin_half"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="Hide Detail"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_marginRight="@dimen/def_margin_half" />
+
+        <Button
+            android:id="@+id/btn_close"
+            style="@style/MyButtonOutlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/space"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="Close"
+            android:textColor="@color/red_500"
+            android:layout_marginRight="@dimen/space" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tv_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="@dimen/space"
+        android:visibility="gone"
+        app:cardCornerRadius="@dimen/radius_half"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_half"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_half"
+                android:layout_marginEnd="@dimen/space_half"
+                android:text="No Data" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/base_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/color_primary_50"
+        app:cardCornerRadius="@dimen/space"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/ll_column"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ed_search_p"
+                style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Search"
+                android:layout_marginStart="@dimen/space"
+                android:layout_marginLeft="@dimen/space"
+                android:layout_marginEnd="@dimen/space"
+                android:layout_marginRight="@dimen/space"
+                android:hint="Search">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_search"
+                    style="@style/MyTextInputEditText.Spesial.V3.Search" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_colomn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_half"
+                android:padding="@dimen/space_half"
+                tools:itemCount="4"
+                tools:listitem="@layout/item_string" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

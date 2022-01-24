@@ -1,0 +1,3 @@
+rootProject.name = "PeekDatabase"
+include ':app'
+include ':pd'

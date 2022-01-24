@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nambimobile.widgets:expandable-fab:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/863ef7d86497867dc1649f67b896e7f2/jetified-expandable-fab-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/863ef7d86497867dc1649f67b896e7f2/jetified-expandable-fab-1.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/863ef7d86497867dc1649f67b896e7f2/jetified-expandable-fab-1.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nambimobile.widgets/expandable-fab/1.2.1/bd61c0b514ef7c78f7530a82843e99e99ebc1caf/expandable-fab-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nambimobile.widgets/expandable-fab/1.2.1/d40bfe0832385b7001f6c3d41c2313bca7333af5/expandable-fab-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
