@@ -67,7 +67,7 @@ public class DialogTable extends MyLibDialog {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.dialog_table, container, false);
+        return inflater.inflate(R.layout.pdb_dialog_table, container, false);
     }
 
     @Override

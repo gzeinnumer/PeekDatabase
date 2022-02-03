@@ -9,6 +9,8 @@ import androidx.fragment.app.FragmentTransaction;
 import com.gzeinnumer.pd.DialogTable;
 
 public class DialogTableBuilder {
+    //SQLiteDatabase sqLiteDatabase = DBInstance.getDataBase(getApplicationContext());
+    //DialogTableBuilder.newInstanse(this, sqLiteDatabase).build();
 
     private final FragmentActivity fragmentActivity;
     public SQLiteDatabase db;

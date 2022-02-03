@@ -38,7 +38,7 @@
             android:layout_marginBottom="@dimen/def_margin"
             app:efab_closingAnticipateTension="0"
             app:efab_color="@color/colorPrimary"
-            app:efab_icon="@drawable/ic_baseline_unfold_more_24"
+            app:efab_icon="@drawable/pdb_ic_baseline_unfold_more_24"
             app:efab_iconAnimationRotationDeg="-225" />
 
         <com.nambimobile.widgets.efab.FabOption
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_color="@color/colorAccent"
-            app:fab_icon="@drawable/ic_baseline_playlist_add_check_24"
+            app:fab_icon="@drawable/pdb_ic_baseline_playlist_add_check_24"
             app:label_backgroundColor="#808080"
             app:label_text="All Table"
             app:label_textColor="@color/white" />
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_color="@color/colorAccent"
-            app:fab_icon="@drawable/ic_baseline_playlist_play_24"
+            app:fab_icon="@drawable/pdb_ic_baseline_playlist_play_24"
             app:label_backgroundColor="#808080"
             app:label_text="Spesifik Table"
             app:label_textColor="@color/white" />

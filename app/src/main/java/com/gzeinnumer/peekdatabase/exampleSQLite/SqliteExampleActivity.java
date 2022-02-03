@@ -32,11 +32,11 @@ public class SqliteExampleActivity extends AppCompatActivity {
 
         //insert data
         Table1 table1 = new Table1(sqLiteDatabase);
-        table1.insert();
-        table1.insert();
-        table1.insert();
-        table1.insert();
-        table1.insert();
+//        table1.insert();
+//        table1.insert();
+//        table1.insert();
+//        table1.insert();
+//        table1.insert();
 
         FabOption fo1 = findViewById(R.id.fo_1);
         fo1.setOnClickListener(view -> {

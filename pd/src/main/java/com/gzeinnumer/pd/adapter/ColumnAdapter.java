@@ -32,7 +32,7 @@ public class ColumnAdapter extends RecyclerView.Adapter<ColumnAdapter.MyHolder> 
     @Override
     public MyHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         this.context = parent.getContext();
-        return new MyHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_string, parent, false));
+        return new MyHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.pdb_item_string, parent, false));
     }
 
     @Override
