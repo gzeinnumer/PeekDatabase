@@ -40,12 +40,17 @@ public class SqliteExampleActivity extends AppCompatActivity {
 
         FabOption fo1 = findViewById(R.id.fo_1);
         fo1.setOnClickListener(view -> {
-            DialogTableBuilder.newInstanse(this, sqLiteDatabase).build();
+            DialogTableBuilder
+                    .newInstanse(this, sqLiteDatabase)
+                    .build();
         });
 
         FabOption fo2 = findViewById(R.id.fo_2);
         fo2.setOnClickListener(view -> {
-            DialogTableBuilder.newInstanse(this, sqLiteDatabase).addTable("table1").build();
+            DialogTableBuilder
+                    .newInstanse(this, sqLiteDatabase)
+                    .addTable("table1")
+                    .build();
         });
     }
 }

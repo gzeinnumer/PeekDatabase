@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PeekDatabase.iml" filepath="$PROJECT_DIR$/.idea/modules/PeekDatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PeekDatabase.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.iml" filepath="$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/pd/PeekDatabase.pd.unitTest.iml" />
     </modules>
   </component>
 </project>

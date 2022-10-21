@@ -16,7 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_height="wrap_content"/>
 
-
     <com.nambimobile.widgets.efab.ExpandableFabLayout
         android:id="@+id/expandable_fab_layout"
         android:layout_width="0dp"
